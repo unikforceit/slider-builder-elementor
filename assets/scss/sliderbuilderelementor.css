@@ -1,0 +1,100 @@
+.slider-builder-sections dl, .slider-builder-sections ol, .slider-builder-sections ul {
+  margin: 0;
+  padding: 0;
+}
+.slider-builder-sections a {
+  color: inherit;
+  text-decoration: none;
+}
+.slider-builder-sections button {
+  text-decoration: none;
+}
+.slider-builder-sections button:hover {
+  text-decoration: none;
+}
+.slider-builder-sections .slider-inner-box .slider-main-thumbnail .icon-container {
+  font-size: 40px;
+  height: 75px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #0b0b0b;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  z-index: 2;
+}
+.slider-builder-sections .slider-inner-box .main-heading {
+  margin: 30px 0;
+}
+.slider-builder-sections .slider-inner-box .main-heading h3 {
+  font-size: 24px;
+  color: #21333E;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.slider-builder-sections .slider-inner-box .main-text {
+  color: #606D75;
+  font-size: 16px;
+}
+.slider-builder-sections .slider-inner-box .slider-btn {
+  margin-top: 25px;
+}
+.slider-builder-sections .slider-inner-box .slider-btn a {
+  font-size: 15px;
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 35px;
+  color: #ffffff;
+  background-color: #0b0b0b;
+  font-weight: 500;
+  border-radius: 7px;
+}
+.slider-builder-sections .slider-meta ul li {
+  margin: 15px 0;
+  display: block;
+}
+.slider-builder-sections .slider-meta ul li h4 {
+  font-size: 16px;
+}
+.slider-builder-sections .slider-meta ul li p {
+  font-size: 14px;
+}
+.slider-builder-sections .owl-carousel .owl-nav .owl-prev,
+.slider-builder-sections .owl-carousel .owl-nav .owl-next {
+  background: #0b0b0b;
+  color: #ffffff;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  left: -80px;
+  top: 50%;
+}
+.slider-builder-sections .owl-carousel .owl-nav .owl-next {
+  right: -80px;
+  left: inherit;
+}
+.slider-builder-sections .owl-carousel .owl-dots {
+  display: flex;
+  justify-content: center;
+}
+.slider-builder-sections .owl-carousel .owl-dots .owl-dot {
+  background: #0b0b0b;
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.slider-builder-sections .owl-carousel .owl-dots .owl-dot.active {
+  background-color: #0a447a;
+}
+
+/*# sourceMappingURL=sliderbuilderelementor.css.map */
